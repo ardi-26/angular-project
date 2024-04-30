@@ -1,0 +1,9 @@
+
+<div class="star-rating">
+
+ <fa-icon [icon]="faStar" *ngFor = 'let star of stars' >
+ </fa-icon>   
+<fa-icon [icon]="faStarHalf" *ngIf = 'rating % 1 !=0' >
+ </fa-icon>
+
+</div>
